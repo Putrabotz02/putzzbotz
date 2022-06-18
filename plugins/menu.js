@@ -31,7 +31,7 @@ _*Hai*_ *%name!*
   body: '  ┃ ⎙ %cmd %islimit %isPremium',
   footer: '┗━ꕥ\n',
   after: `
- _*Botz By Romli*_
+ _*Botz By putra*_
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -223,7 +223,7 @@ let uptime = clockString(_uptime)
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `┏━━〔 *ZxyuuBotz* 〕━ꕥ
+                        "description": `┏━━〔 *PutraBotz* 〕━ꕥ
 ┃✾ *Aktif Selama:* _*${uptime}*_
 ┃✾ *Info Batre* _*${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}*_
 ┃✾ *User:* _*${Object.keys(global.db.data.users).length}*_ 
@@ -239,8 +239,8 @@ let uptime = clockString(_uptime)
 │⬡ WhatsApp Web Version : ${conn.browserDescription[2]}
 │⬡ Platform : Heroku
 ┗──────────⬣
-_*Bot By Romli*_`.trim(),
-                        "footerText": "ZxyuuRomz XzyuuNaii",
+_*Bot By Putra*_`.trim(),
+                        "footerText": "PutraBotz",
                         "buttonText": "KLIK DISINI",
                         "listType": "SINGLE_SELECT",
                         "sections": [
@@ -251,7 +251,7 @@ _*Bot By Romli*_`.trim(),
                                     "rowId": ".donasi"
                                 }, {
                                     "title":      "☰ Pertanyaan Tentang Bot Ini ",
-                                    "description": "ZxyuuRomzz",
+                                    "description": "PutraBotz",
                                     "rowId": ".qna"
                                 }, {
  "title":      "☰ Setelan grub",
@@ -259,11 +259,11 @@ _*Bot By Romli*_`.trim(),
                                     "rowId": ".setelangrub"
                                 }, {
 "title":      "☰ Store Menu",
-                                    "description": "store di ZxyuuBotz",
+                                    "description": "store di PutraBotz",
                                     "rowId": ".iklan"
                                 }, {
   "title":  "☰ jadibot",
-                                    "description": "bergabung bersama bot ROMZZ",
+                                    "description": "bergabung bersama bot Putzz",
                                     "rowId": ".jadibot"
                                 }, {
   "title":  "☰ group",
@@ -298,19 +298,19 @@ _*Bot By Romli*_`.trim(),
                                     "rowId": ".? cristian"
                                 }, {
                                     "title": "☰--Menu Edukasi「 3 」",
-                                    "description": "Menu Edukasi Di ZxyuuBotz",
+                                    "description": "Menu Edukasi Di PutraBotz",
                                     "rowId": ".? edukasi"
                                 }, { 
                                     "title": "☰--Menu Berita「 4 」",
-                                    "description": "Menu Berita Di ZxyuuBotz",
+                                    "description": "Menu Berita Di PutraBotz",
                                     "rowId": ".? News"
                                 }, { 
                                     "title": "☰--Menu Game「 5 」",
-                                    "description": "Menu Game Di ZxyuuBotz",
+                                    "description": "Menu Game Di PutraBotz",
                                     "rowId": ".? game"
                                 }, { 
                                     "title": "☰--Menu RPG「 6 」",
-                                    "description": "Menu RPG Di ZxyuuBotz",
+                                    "description": "Menu RPG Di PutraBotz",
                                     "rowId": ".? rpg"
                                 }, { 
                                     "title": "☰--XP Dan Level「 7 」",
@@ -322,11 +322,11 @@ _*Bot By Romli*_`.trim(),
                                     "rowId": ".? nsfw"
                                 }, { 
                                     "title": "☰--Menu Foto Random「 9 」",
-                                    "description": "Menu Foto Di ZxyuuBotz",
+                                    "description": "Menu Foto Di PutraBotz",
                                     "rowId": ".? image"
                                 }, { 
                                     "title": "☰--Menu Sticker「 10 」",
-                                    "description": "Buat Sticker Lu Di ZxyuuBotz",
+                                    "description": "Buat Sticker Lu Di PutraBotz",
                                     "rowId": ".? stiker"
                                 }, { 
                                     "title": "☰--Kerang Ajaib「 11 」",
@@ -342,7 +342,7 @@ _*Bot By Romli*_`.trim(),
                                     "rowId": ".? admin"
                                 }, { 
                                     "title": "☰--Menu Khusus Group「 14 」",
-                                    "description": "Menu Group Di ZxyuuBotz",
+                                    "description": "Menu Group Di PutraBotz",
                                     "rowId": ".? grup"
                                 }, { 
                                     "title": "☰--Menu Khusus Premium「 15 」",
@@ -350,7 +350,7 @@ _*Bot By Romli*_`.trim(),
                                     "rowId": ".? premium"
                                 }, { 
                                     "title": "☰--Menu Internet「 16 」",
-                                    "description": "Cari Sesuatu Di ZxyuuBotz",
+                                    "description": "Cari Sesuatu Di PutraBotz",
                                     "rowId": ".? internet"
                                 }, { 
                                     "title": "☰--Menu Anonymous「 17 」",
@@ -362,11 +362,11 @@ _*Bot By Romli*_`.trim(),
                                     "rowId": ".? nulis"
                                 }, { 
                                     "title": "☰--Menu Download「 19 」",
-                                    "description": "Download Sesuatu Di ZxyuuBotz",
+                                    "description": "Download Sesuatu Di PutraBotz",
                                     "rowId": ".? downloader"
                                 }, { 
                                     "title": "☰--Menu Tools「 20 」",
-                                    "description": "Tools Yang Bisa di Gunakan Di ZxyuuBotz",
+                                    "description": "Tools Yang Bisa di Gunakan Di PutraBotz",
                                     "rowId": ".? tools"
                                 }, { 
                                     "title": "☰--Menu Ceriaa「 21 」",
@@ -378,11 +378,11 @@ _*Bot By Romli*_`.trim(),
                                     "rowId": ".? database"
                                 }, { 
                                     "title": "☰--Menu Vote & Absen「 23 」",
-                                    "description": "Menu Vote & Absen Di ZxyuuBotz",
+                                    "description": "Menu Vote & Absen Di PutraBotz",
                                     "rowId": ".? vote"
                                 }, { 
                                     "title": "☰--Menu Ubah Suara「 24 」",
-                                    "description": "Ubah Suaramu Si ZxyuuBotz",
+                                    "description": "Ubah Suaramu Si PutraBotz",
                                     "rowId": ".? audio"
                                 }, { 
                                     "title": "☰--Menu Jadibot「 25 」",
@@ -390,10 +390,10 @@ _*Bot By Romli*_`.trim(),
                                     "rowId": ".? jadibot"
                                 }, { 
                                     "title": "☰--Menu Wibu「 26 」",
-                                    "description": "Cari Anime Di ZxyuuBotz",
+                                    "description": "Cari Anime Di PutraBotz",
                                     "rowId": ".? anime"
                                 }, { 
-                                    "title": "☰--Info ZxyuuBotz「 27 」",
+                                    "title": "☰--Info PutraBotz「 27 」",
                                     "description": "Info Tentang Bot",
                                     "rowId": ".? info"
                                 }, { 
@@ -410,25 +410,25 @@ _*Bot By Romli*_`.trim(),
                                     "rowId": ".waifu"
                                 }, { 
 "title": "☰--Menu Profile「 31 」",
-                                    "description": "profile anda di ZxyuuBotz",
+                                    "description": "profile anda di PutraBotz",
                                     "rowId": ".profile"
                                 }, { 
                                     "title": "☰--Menu Khusus Owner「 32 」",
-                                    "description": "Menu Khusus Romli/Naii Doang🗿",
+                                    "description": "Menu Khusus PutraBotz Doang🗿",
                                     "rowId": ".? owner"
                                 }],
                                 "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": "|👩‍💻| Owner ZxyuuBotz",
-                                    "description": "pemilik ZxyuuRomz",
+                                    "title": "|👩‍💻| Owner PutraBotz",
+                                    "description": "pemilik ZxyuuPutz",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "|🛠|--Status bot",
                                     "description": "Status dan informasi bot",
                                     "rowId": ".botstatus"
                                 }, {
-                                    "title": "|🖨️|--Rules ZxyuuBotz",
+                                    "title": "|🖨️|--Rules PutraBotz",
                                     "description": "Mari menaati peraturan demi Kita bersama",
                                     "rowId": ".rules"
                                 }, {
@@ -441,7 +441,7 @@ _*Bot By Romli*_`.trim(),
                         ], "contextInfo": 
 						{ "stanzaId": m.key.id,
                         "participant": "0@s.whatsapp.net",
-                        "remoteJid": "6281224804625-1614953337@g.us",
+                        "remoteJid": "6283840600765-1614953337@g.us",
                         "quotedMessage": m.message
 						}
                     }
