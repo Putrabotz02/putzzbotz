@@ -480,12 +480,12 @@ ketik *.on delete* untuk mematikan pesan ini
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: '*LU SIAPA OWNER AJA BULAN🗿*',
+    rowner: '*LU SIAPA OWNER AJA BUKAN🗿*',
     owner: '*LU SIAPA OWNER AJA BUKAN🗿*',
     premium: '*BELI PREMIUM DULU BANH!!*',
-    group: '*CUMAN KHUSUS GRUB NGNTD!!*',
-    private: '*CHAT PRIBADI!!!*',
-    admin: '*LU EMANG ADMIN GROUP???*',
+    group: '*CUMAN KHUSUS GRUB BODOH!!*',
+    private: '*CHAT PRIBADI TOD!!!*',
+    admin: '*LAWACK EMANG LU ADMIN GROUP TOD???*',
     botAdmin: '*ADMIN DULU BOTNYA NGNTD!!!*',
     unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n#daftar ROMLI.16',
     nsfw: 'NSFW doesnt active.\nNSFW tidak aktif.'
