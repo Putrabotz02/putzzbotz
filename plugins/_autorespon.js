@@ -15,7 +15,7 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'zxyuubotz tidak aktif' : banned ? 'kamu dibanned' : '*MAU APA TAG GUA NGAB???*',
+                isBanned ? 'putrabotz tidak aktif' : banned ? 'kamu dibanned' : '*MAU APA TAG GUA NGAB???*',
                 '©zxyuubotz',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
@@ -37,11 +37,11 @@ handler.all = async function (m, { isBlocked }) {
 _JNGN MAU GRATIS NYA DOANG!!!_
 ╭═══════════════════════
 ║╭──❉ 〔 PAYMENT 〕 ❉──────
-║│➸ *PULSA* : _081224804625_
-║│➸ *PULSA*:  _6281215710461_
+║│➸ *PULSA* : _083856051043_
+║│➸ *DANA*:  _6283856051043_
 ║╰─────────
 ▌│█║▌║▌║║▌║▌║█│▌▌│█║▌║▌║║▌║▌║█│
-╰═══════════════════════`.trim(), '©ZxyuuBotz', 'PAYMENT', '.payment', 'MENU', '.menu', m)
+╰═══════════════════════`.trim(), '©PutraBotz', 'PAYMENT', '.payment', 'MENU', '.menu', m)
 }
 
     // salam
@@ -71,7 +71,7 @@ _JNGN MAU GRATIS NYA DOANG!!!_
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`IM RomliBotz🤖 Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} |ZxyuuBotz by.Romli`).catch(_ => _)
+        await this.setStatus(`IM PutraBotz🤖 Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} |PutraBotz by.Putra`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
