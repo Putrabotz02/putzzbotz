@@ -1,7 +1,7 @@
 {
-  "name": "LynXzy",
+  "name": "VERDIKAWAII.js",
   "version": "2.2.0",
-  "description": "Bot wa",
+  "description": "SCROBYON.jshon",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
